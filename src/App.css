@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding: 30px 50px;
+  width: 100%;
+  height: 75px;
+}
+
+.options {
+  display: flex;
+  gap: 24px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15.23px;
+  letter-spacing: 1.4px;
+}
+
+.logo {
+  width: 200px;
+  height: 17px;
+}
+
+.cart {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15.23px;
+  letter-spacing: 1.4px;
+}
+
+.deskImg {
+  height: 500px;
+  width: 100%;
+}
+
+.deskSystem {
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  h1 {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+}
+
+.designInspires {
+  margin-top: 80px;
+  h1 {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  .txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: rgba(160, 160, 160, 1);
+    margin-bottom: 26px;
+  }
+  .getStarted {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin-bottom: 81px;
+  }
+}
+
+.devicesDiv {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 130px;
+  img {
+    width: 590px;
+    margin-bottom: 50px;
+  }
+}
+
+.deviceName {
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.more {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15.23px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.productsDiv {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+
+.productsImg {
+  width: 280px;
+}
+
+.productBlock {
+  text-align: left;
+  p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: rgba(160, 160, 160, 1);
+  }
+}
+
+.officeSystem {
+  margin-bottom: 100px;
+}
