@@ -1,4 +1,4 @@
-function FeaderFunc() {
+function HeaderFunc() {
     return (
         <div className="header">
             <nav className="headerNav">
@@ -74,4 +74,4 @@ function OfficeInspiration() {
 }
 
 
-export {FeaderFunc, DeskSystemSection, DevicesSection, ProductsFunc, OfficeInspiration};
+export {HeaderFunc, DeskSystemSection, DevicesSection, ProductsFunc, OfficeInspiration};

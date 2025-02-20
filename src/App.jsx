@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import {FeaderFunc, DeskSystemSection, DevicesSection, ProductsFunc, OfficeInspiration} from './components/functions'
+import {HeaderFunc, DeskSystemSection, DevicesSection, ProductsFunc, OfficeInspiration} from './components/functions'
 import './App.css'
 
 
@@ -47,7 +47,7 @@ function App() {
   return (
     <center>
       <div className='container'>
-        <FeaderFunc />
+        <HeaderFunc />
       </div>
 
       <DeskSystemSection/>
