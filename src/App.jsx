@@ -17,10 +17,12 @@ const users = [
   { "id": 10, "name": "Daniel Moore", "age": 28 }
 ]
 
+let exportSetUser;
 
 function App() {
   const [selectedUser, SetUser] = useState(null)
   const [showModal, SetShowModal] = useState(false)
+  exportSetUser = SetUser
   return (
     <div>
       <div className={`container ${showModal ? 'blurred' : ""}`}>
@@ -49,5 +51,5 @@ function App() {
   )
 }
 
-
-export default App
+export default App;
+export { exportSetUser }

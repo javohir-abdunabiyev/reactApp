@@ -1,5 +1,6 @@
 import './media.css'
 import './modal.css'
+import { exportSetUser } from '../../App'
 
 function Modal({ user, active }) {
     return (
@@ -9,7 +10,10 @@ function Modal({ user, active }) {
                     <h1>{user.name}</h1>
                     <p>{user.age} years old</p>
                 </center>
-                <button className="closeModal" onClick={() => active(false)}>x</button>
+                <button className="closeModal" onClick={() => {
+                    active(false)
+                    exportSetUser(null)
+                }}>x</button>
             </dialog>
         </div>
     )
