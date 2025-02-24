@@ -1,0 +1,21 @@
+@media (max-width:992px) {
+    .usersModal {
+        width: 400px !important;
+        height: 250px !important;
+    }
+}
+
+@media (max-width:576px) {
+    .usersModal {
+        width: 300px !important;
+        height: 200px !important;
+
+        h1 {
+            font-size: 35px;
+        }
+
+        p {
+            margin-top: 26px;
+        }
+    }
+}
