@@ -1,22 +1,15 @@
-import './media.css'
 import './modal.css'
-import { exportSetUser } from '../../App'
 
-function Modal({ user, active }) {
+function UserPage({ user, back}) {
     return (
-        <div className="overlay" onClick={() => active(false)} >
-            <dialog className="usersModal" open>
-                <center>
-                    <h1>{user.name}</h1>
-                    <p>{user.age} years old</p>
-                </center>
-                <button className="closeModal" onClick={() => {
-                    active(false)
-                    exportSetUser(null)
-                }}>x</button>
-            </dialog>
+        <div className="user-details">
+          <button onClick={back}>Назад</button>
+          <h1>{user.name}</h1>
+          <p>Email: {user.email}</p>
+          <p>Phone: {user.phone}</p>
+          <p>Website: {user.website}</p>
         </div>
     )
 }
 
-export default Modal
+export default UserPage
